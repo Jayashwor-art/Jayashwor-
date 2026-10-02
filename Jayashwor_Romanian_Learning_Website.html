@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jayashwor's Romanian Learning Space — Lesson 1</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f3f5f7;color:#202124}
+main{max-width:920px;margin:auto;padding:18px}
+.card{background:white;border-radius:16px;padding:20px;margin:14px 0;box-shadow:0 2px 8px #0001}
+h1{text-align:center;margin:4px 0} h2{margin-top:4px}
+.sub{text-align:center;color:#555}
+.tip{background:#fff4c2;padding:13px;border-radius:10px}
+.row{display:grid;grid-template-columns:1.1fr 1.3fr 2fr 150px;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid #ddd}
+.pron{font-style:italic} .speak{font-size:15px;padding:9px;border:0;border-radius:9px;cursor:pointer;background:#e8eefc}
+select{font-size:15px;padding:8px;border-radius:8px}
+@media(max-width:650px){.row{grid-template-columns:1fr 1fr}.pron{grid-column:1/-1}.speak{width:100%}}
+</style>
+</head>
+<body><main>
+
+<div class="card" style="text-align:center">
+  <h2 style="margin-bottom:6px">👋 Welcome, Jayashwor!</h2>
+  <p style="margin:6px 0">This is your personal Romanian study space.</p>
+  <p style="margin:6px 0"><b>Lesson 1</b> is ready now. More lessons can be added later.</p>
+</div>
+
+<div class="card">
+<h1>🇷🇴 Jayashwor’s Romanian Learning Space</h1>
+<div class="sub"><b>Lesson 1 • Romanian from Zero</b></div>
+<p><b>Goal:</b> I, you, he, she, we, they • “to be” • here/there • first Romanian sentences.</p>
+<div class="tip"><b>🔊 Improved audio:</b> This version uses your phone's available Romanian text-to-speech voice instead of the low-quality recordings. Choose a Romanian voice below, then tap ▶ Listen.</div>
+<p><b>Romanian voice:</b> <select id="voice"></select></p>
+<p><b>Speed:</b> <select id="rate"><option value="0.72">Slow</option><option value="0.85" selected>Learning speed</option><option value="1">Normal</option></select></p>
+</div>
+
+<div class="card"><h2>1. Personal Pronouns</h2>
+<p>Listen first, then repeat. Pay special attention to <b>ei</b>: it is one syllable.</p>
+<div class="row"><b>Romanian</b><b>English</b><b>Easy sound</b><b>Audio</b></div>
+<div class="row">
+      <div><b>eu</b></div><div>I</div><div class="pron">eh-oo (quick)</div>
+      <button class="speak" onclick="speak('eu')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>tu</b></div><div>you</div><div class="pron">too</div>
+      <button class="speak" onclick="speak('tu')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>el</b></div><div>he</div><div class="pron">el</div>
+      <button class="speak" onclick="speak('el')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>ea</b></div><div>she</div><div class="pron">yah</div>
+      <button class="speak" onclick="speak('ea')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>noi</b></div><div>we</div><div class="pron">noy</div>
+      <button class="speak" onclick="speak('noi')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>voi</b></div><div>you plural/formal</div><div class="pron">voy</div>
+      <button class="speak" onclick="speak('voi')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>ei</b></div><div>they male/mixed</div><div class="pron">yei — one syllable</div>
+      <button class="speak" onclick="speak('ei')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>ele</b></div><div>they female</div><div class="pron">yeh-leh</div>
+      <button class="speak" onclick="speak('ele')">▶ Listen</button>
+    </div>
+</div>
+
+<div class="card"><h2>⭐ Special pronunciation: ei</h2>
+<p><b>ei</b> = they (male/mixed). One syllable. Do not pronounce it as two separate English words.</p>
+<div class="row">
+      <div><b>ei</b></div><div>they (male/mixed)</div><div class="pron">yei — one syllable</div>
+      <button class="speak" onclick="speak('ei')">▶ Listen</button>
+    </div>
+</div>
+
+<div class="card"><h2>2. A FI = TO BE</h2>
+<div class="row">
+      <div><b>eu sunt</b></div><div>I am</div><div class="pron">eh-oo soont</div>
+      <button class="speak" onclick="speak('eu sunt')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>tu ești</b></div><div>you are</div><div class="pron">too yesht</div>
+      <button class="speak" onclick="speak('tu ești')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>el este</b></div><div>he is</div><div class="pron">el yeh-steh</div>
+      <button class="speak" onclick="speak('el este')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>ea este</b></div><div>she is</div><div class="pron">yah yeh-steh</div>
+      <button class="speak" onclick="speak('ea este')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>noi suntem</b></div><div>we are</div><div class="pron">noy soon-tem</div>
+      <button class="speak" onclick="speak('noi suntem')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>voi sunteți</b></div><div>you are</div><div class="pron">voy soon-tsets</div>
+      <button class="speak" onclick="speak('voi sunteți')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>ei sunt</b></div><div>they are</div><div class="pron">yei soont</div>
+      <button class="speak" onclick="speak('ei sunt')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>ele sunt</b></div><div>they are</div><div class="pron">yeh-leh soont</div>
+      <button class="speak" onclick="speak('ele sunt')">▶ Listen</button>
+    </div>
+</div>
+
+<div class="card"><h2>3. Here and There</h2>
+<div class="row">
+      <div><b>aici</b></div><div>here</div><div class="pron">ah-chee</div>
+      <button class="speak" onclick="speak('aici')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>acolo</b></div><div>there</div><div class="pron">ah-koh-loh</div>
+      <button class="speak" onclick="speak('acolo')">▶ Listen</button>
+    </div>
+</div>
+
+<div class="card"><h2>4. Build Your First Sentences</h2>
+<p><b>Pattern:</b> PERSON + TO BE + PLACE</p>
+<div class="row">
+      <div><b>Eu sunt aici.</b></div><div>I am here.</div><div class="pron">eh-oo soont ah-chee</div>
+      <button class="speak" onclick="speak('Eu sunt aici.')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>Tu ești acolo.</b></div><div>You are there.</div><div class="pron">too yesht ah-koh-loh</div>
+      <button class="speak" onclick="speak('Tu ești acolo.')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>El este aici.</b></div><div>He is here.</div><div class="pron">el yeh-steh ah-chee</div>
+      <button class="speak" onclick="speak('El este aici.')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>Ea este acolo.</b></div><div>She is there.</div><div class="pron">yah yeh-steh ah-koh-loh</div>
+      <button class="speak" onclick="speak('Ea este acolo.')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>Noi suntem aici.</b></div><div>We are here.</div><div class="pron">noy soon-tem ah-chee</div>
+      <button class="speak" onclick="speak('Noi suntem aici.')">▶ Listen</button>
+    </div><div class="row">
+      <div><b>Ei sunt acolo.</b></div><div>They are there.</div><div class="pron">yei soont ah-koh-loh</div>
+      <button class="speak" onclick="speak('Ei sunt acolo.')">▶ Listen</button>
+    </div>
+</div>
+
+<div class="card"><h2>5. Practice</h2>
+<ol>
+<li>I am here. __________________</li><li>You are there. __________________</li>
+<li>He is here. __________________</li><li>She is there. __________________</li>
+<li>We are here. __________________</li><li>They are there. __________________</li>
+</ol>
+<h3>Answers</h3>
+<p>Eu sunt aici.<br>Tu ești acolo.<br>El este aici.<br>Ea este acolo.<br>Noi suntem aici.<br>Ei sunt acolo.</p>
+</div>
+
+<div class="card">
+  <h2>🔐 Your private website</h2>
+  <p>This page is designed to become your private Romanian learning website. 
+  When it is hosted with private access, only you will be able to open it.</p>
+</div>
+
+</main>
+<script>
+let voices=[];
+function loadVoices(){
+  voices=speechSynthesis.getVoices();
+  const sel=document.getElementById('voice');
+  const current=sel.value;
+  sel.innerHTML='';
+  const ro=voices.filter(v=>v.lang.toLowerCase().startsWith('ro'));
+  const list=ro.length?ro:voices.filter(v=>v.lang.toLowerCase().includes('ro'));
+  (list.length?list:voices).forEach((v,i)=>{
+    const o=document.createElement('option');
+    o.value=voices.indexOf(v);
+    o.textContent=v.name+' ('+v.lang+')';
+    sel.appendChild(o);
+  });
+  if(current) sel.value=current;
+}
+speechSynthesis.onvoiceschanged=loadVoices;
+loadVoices();
+
+function speak(text){
+  speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang='ro-RO';
+  u.rate=parseFloat(document.getElementById('rate').value);
+  u.pitch=1;
+  const idx=parseInt(document.getElementById('voice').value);
+  if(!isNaN(idx) && voices[idx]) u.voice=voices[idx];
+  speechSynthesis.speak(u);
+}
+</script>
+</body></html>
